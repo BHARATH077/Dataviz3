@@ -167,7 +167,7 @@
     }
 
     function upgrade() {
-        d3.json("data/coauthorship_data.json").then(function (data) {
+        d3.json("coauthorship_data.json").then(function (data) {
             const nodes = data.nodes;
             const edges = data.links;
             console.log("start")
